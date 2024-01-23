@@ -30,7 +30,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Hugo and build site
         run: |
-          apt -y install hugo
+          sudo apt-get -y install hugo
           hugo \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
