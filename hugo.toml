@@ -1,7 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Ellingson Mineral Tech Blog'
-theme = 'plague'
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = true
+    path = 'github.com/brianreumere/plague'  # Theme
 
 [frontmatter]
   date = [':filename', ':default']
@@ -10,7 +16,7 @@ theme = 'plague'
   siteHeaderText = "Ellingson Mineral Tech Blog"
   siteFooterText = "Powered by [Hugo](https://gohugo.io/) and the [plague](https://github.com/brianreumere/plague) theme. Hosted on the Gibson supercomputer ⌨️."
 
-  colors = "hackers"
+  colors = "default"
 
   [params.hcard]
     avatar = "images/i.jpg"
@@ -24,7 +30,5 @@ theme = 'plague'
 
     social = [
       { platform = "email", identity = "e.belford@example.net", url_pattern = "mailto:%s" },
-      { platform = "github", identity = "eugenebelford", url_pattern = "https://github.com/%s" },
-      { platform = "bluesky", identity = "e.belford", url_pattern = "https://bsky.app/profile/%s" },
-      { platform = "mastodon", identity = "e.belford", url_pattern = "https://indieweb.social/@%s" }
+      { platform = "github", identity = "brianreumere", url_pattern = "https://github.com/%s" }
     ]
