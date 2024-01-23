@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Ellingson Mineral Tech Blog'
+theme = 'plague'
+
+[frontmatter]
+  date = [':filename', ':default']
+
+[params]
+  siteHeaderText = "Ellingson Mineral Tech Blog"
+  siteFooterText = "Powered by [Hugo](https://gohugo.io/) and the [plague](https://github.com/brianreumere/plague) theme. Hosted on the Gibson supercomputer ⌨️."
+
+  colors = "hackers"
+
+  [params.hcard]
+    avatar = "images/i.jpg"
+    fullName = "Eugene Belford"
+    pronouns = ["they", "them"]
+    nickname = "The Plague"
+    city = "New York"
+    region = "NY"
+    country = "US"
+    showLocation = true
+
+    social = [
+      { platform = "email", identity = "e.belford@example.net", url_pattern = "mailto:%s" },
+      { platform = "github", identity = "eugenebelford", url_pattern = "https://github.com/%s" },
+      { platform = "bluesky", identity = "e.belford", url_pattern = "https://bsky.app/profile/%s" },
+      { platform = "mastodon", identity = "e.belford", url_pattern = "https://indieweb.social/@%s" }
+    ]
