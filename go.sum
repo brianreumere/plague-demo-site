@@ -2,3 +2,9 @@ github.com/brianreumere/plague v0.0.3 h1:mAWKN9j02IMh3Q3tsyfHscovNXBSABCyI2qyl4L
 github.com/brianreumere/plague v0.0.3/go.mod h1:FjXJXbBLMg28mwVEVwSF+bLtEPI8RzHb/DMZ5BCSUBc=
 github.com/brianreumere/plague v0.0.4 h1:8DJdkjGhY5LWS55ryovhBpSm1Gccucpaz46UahHuyaU=
 github.com/brianreumere/plague v0.0.4/go.mod h1:FjXJXbBLMg28mwVEVwSF+bLtEPI8RzHb/DMZ5BCSUBc=
+github.com/brianreumere/plague v0.1.1 h1:c8VUR8N5vt+Z966Kv5OHcfEp2+en/GDsw7pOKrYAKVc=
+github.com/brianreumere/plague v0.1.1/go.mod h1:FjXJXbBLMg28mwVEVwSF+bLtEPI8RzHb/DMZ5BCSUBc=
+github.com/brianreumere/plague v0.1.2-0.20240124050621-0a3084e5188c h1:xOWXv2gJji31ilEgVvnVkbUHVm3hUxabdMa2PDNNK68=
+github.com/brianreumere/plague v0.1.2-0.20240124050621-0a3084e5188c/go.mod h1:FjXJXbBLMg28mwVEVwSF+bLtEPI8RzHb/DMZ5BCSUBc=
+github.com/brianreumere/plague v0.1.2-0.20240125032854-e42c770f9dd1 h1:l16qY/Ey7WOvD20HMxMpIbLcNzs37N5+ubtnWR6qXas=
+github.com/brianreumere/plague v0.1.2-0.20240125032854-e42c770f9dd1/go.mod h1:FjXJXbBLMg28mwVEVwSF+bLtEPI8RzHb/DMZ5BCSUBc=
