@@ -19,7 +19,7 @@ title = 'Ellingson Mineral Tech Blog'
   siteHeaderText = "Ellingson Mineral Tech Blog"
   siteFooterText = "Powered by [Hugo](https://gohugo.io/) and the [plague](https://github.com/brianreumere/plague) theme. Hosted on the Gibson supercomputer ⌨️."
 
-  colors = "gibson"
+  colors = "default"
 
   [params.hcard]
     avatar = "images/i.jpg"
